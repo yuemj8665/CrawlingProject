@@ -35,7 +35,6 @@ while True:
     # 페이징을 한번씩 클릭해준다.
     paging = driver.find_element_by_id("info.search.page.no"+str(number)).click()
     # 페이지 읽어오는 3초의 대기시간
-    print("info.search.page.no"+str(number))
     time.sleep(3)
 
     # 찾은 검색 결과의 박스들을 잡는다.
