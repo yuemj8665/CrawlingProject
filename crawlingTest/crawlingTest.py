@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 # chrome 창 열기
-driver = webdriver.Chrome("./chromedriver.exe")
+driver = webdriver.Chrome("../chromedriver.exe")
 
 # 네이버 뉴스 헤드라인 가져오기
 driver.get("https://news.naver.com/")
